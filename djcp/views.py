@@ -442,7 +442,6 @@ def bonus(request):
     djcp1 = Djcp.objects.filter(customer__user=user).values_list('customer', flat=True).distinct()
     temp0 = list(set(list(djcp1)).difference(set(list(bonusobj1))))
 
-
     cuslist = Customer.objects.filter(pk__in=temp0)  # 排除已经添加过信息的单位对象。
 
     bonuslist, query_dict, datefilter = bouns_view.query_date(request)
@@ -526,6 +525,9 @@ def upload_case(request):
         res['error'] = '程序遇到错误'
 
     return JsonResponse(res, safe=False)
+
+
 '''
 frhgft6743tg763g67fg7y7
 '''
+'''ewfgy7q8gy78y87'''

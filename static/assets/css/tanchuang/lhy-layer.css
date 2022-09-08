@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.layer {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px #bbb;
+    /* 在容器中水平垂直居中显示 */
+    position: fixed; /* 弹窗是浮出层，位置是绝对定位的，不会影响原文档流 */
+    left: 50%;
+    top: 5%; /* 相对于容器的宽度 */
+    transform: translate(-50%, 0%); /* 相对于元素自身宽度 */
+}
+
+.layer h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.layer p {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.layer button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background: #333;
+    margin: 10px auto 0;
+    text-align: center;
+    cursor: pointer;
+}

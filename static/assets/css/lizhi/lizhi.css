@@ -1,0 +1,43 @@
+.table.tableName {
+    position: relative;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    text-align: center;
+    background-color: #fff;
+}
+
+.table.tableName thead {
+    position: relative;
+}
+
+.table.tableName thead tr th {
+    position: sticky;
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    background-color: #FFFFFF;
+}
+
+.table.tableName thead tr th div {
+    width: 200px;
+}
+
+.table.tableName tbody tr td {
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #FFFFFF;
+}
+
+/* 固定列的样式 */
+.table.tableName .fixedName {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-left: none;
+}
+
+.table.tableName .fixedNameboxShadow {
+    box-shadow: -4px 0 4px -2px #ccc;
+}

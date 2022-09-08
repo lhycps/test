@@ -527,7 +527,3 @@ def upload_case(request):
     return JsonResponse(res, safe=False)
 
 
-'''
-frhgft6743tg763g67fg7y7
-'''
-'''ewfgy7q8gy78y87'''

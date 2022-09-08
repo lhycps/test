@@ -526,3 +526,6 @@ def upload_case(request):
         res['error'] = '程序遇到错误'
 
     return JsonResponse(res, safe=False)
+'''
+frhgft6743tg763g67fg7y7
+'''
